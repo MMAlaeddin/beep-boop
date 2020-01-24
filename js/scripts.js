@@ -10,7 +10,9 @@ $(document).ready(function(){
       numberInput.push(i);
       console.log(numberInput);
 
-      if (userInput === 1) {
+       } if (isNaN(userInput)) {
+      alert("Enter a number!");
+       } else if (userInput === 1) {
         $("#response").text("Beep");
       } else if (userInput === 2) {
         $("#response").text("Boop");
@@ -21,20 +23,11 @@ $(document).ready(function(){
       } else if (numberInput.includes(1) && numberInput.includes(2)) {
         $("#response").text("Boop");
 
+
+    
       }
-    
 
-    if (isNaN(userInput)) {
-      alert("Enter a number!");
-      
 
-    }
-
-    
-
-  }
-
-    
     
     
 
