@@ -10,6 +10,14 @@ $(document).ready(function(){
       numberInput.push(i);
       console.log(numberInput);
 
+      if (userInput === 1) {
+        $("#response").text("Beep");
+      } else if (userInput === 2) {
+        $("#response").text("Boop");
+      } else if (userInput === 3) {
+        $("#response").text("Sorry Dave, but you aint gettin' nothin'");
+      } else 
+
 
     
 
