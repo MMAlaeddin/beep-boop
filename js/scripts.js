@@ -26,7 +26,11 @@ $(document).ready(function(){
         $("#response").text("Beep");
       } else if (clown.includes(2)) {
         $("#response").text("Boop");
-      } 
+      } else if (clown.includes(3)) {
+        $("#response").text("Sorry Dave, but you aint gettin' nothin'")
+      } else if (clown.includes(1) && clown.includes(2)) {
+        $("#response").text("Boop");
+      }
 
 
     
