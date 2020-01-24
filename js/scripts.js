@@ -9,8 +9,8 @@ $(document).ready(function(){
     for (var i = 0; i <= userInput; i ++) {
       numberInput.push(i);
       console.log(numberInput);
-    }
-       
+
+
     
 
     if (isNaN(userInput)) {
@@ -21,7 +21,7 @@ $(document).ready(function(){
 
     
 
-
+  }
 
     
     
