@@ -1,7 +1,6 @@
 .jumbotron {
     font-family: monospace;
-    background-image: url('../img/robot.webp');
-    text-align: left;
-  
+    background-image: url('../img/robot.png');
+    color: blue;
 
 }
