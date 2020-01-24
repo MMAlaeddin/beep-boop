@@ -1,6 +1,16 @@
 .jumbotron {
-    font-family: monospace;
     background-image: url('../img/robot.png');
-    color: blue;
+}
 
+h1 {
+    font-family: monospace;
+    color: rgb(187, 0, 93);
+}
+
+.container {
+    font-family: monospace;
+}
+
+button {
+    text-align: center;
 }
