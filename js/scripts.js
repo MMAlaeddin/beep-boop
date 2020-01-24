@@ -30,6 +30,8 @@ $(document).ready(function(){
         $("#response").text("Sorry Dave, but you aint gettin' nothin'")
       } else if (userInput !== 1 || userInput !== 2 || userInput !== 3) {
         $("#response").text(userInput);
+      } else if (clown.includes(4) || clown.includes(5) || clown.includes(6) || clown.includes(7) || clown.includes(8) || clown.includes(9) || clown.includes(0)) {
+        $("#response").text(userInput);
       }
       // } else if (clown.includes(1) && clown.includes(2)) {
       //   $("#response").text("Boop");
