@@ -35,7 +35,7 @@ _Type in any number in the input box on the webpage.  After clicking submit you 
 
 ## Known Bugs
 
-_No known bugs._
+_No known bugs_
 
 ## Support and contact details
 
