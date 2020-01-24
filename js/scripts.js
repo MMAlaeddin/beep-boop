@@ -10,6 +10,9 @@ $(document).ready(function(){
       numberInput.push(i);
       console.log(numberInput);
 
+      var clown = numberInput.toString().split(",");
+      console.log(clown);
+
        } if (isNaN(userInput)) {
       alert("Enter a number!");
        } else if (userInput === 1) {
@@ -18,9 +21,9 @@ $(document).ready(function(){
         $("#response").text("Boop");
       } else if (userInput === 3) {
         $("#response").text("Sorry Dave, but you aint gettin' nothin'");
-      } else if (numberInput.includes(1)) {
+      } else if (clown.includes(1)) {
         $("#response").text("Beep");
-      } else if (numberInput.includes(1) && numberInput.includes(2)) {
+      } else if (clown.includes(2)) {
         $("#response").text("Boop");
 
 
