@@ -22,6 +22,14 @@ _Type in any number in the input box on the webpage.  After clicking submit you 
 - Input: 19
 - Output: Beep
 
+* Any number that includes 2 but not 1 or 3:
+- Input: 42
+- Output: Boop
+
+* Any number that includes 3 but not 1 or 2:
+- Input: 43
+- Output: Sorry...
+
 
 
 ## Setup/Installation Requirements
