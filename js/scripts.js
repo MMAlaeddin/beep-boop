@@ -1,13 +1,24 @@
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
+    var userInput = $("input#number").val();
 
-    var potato = parseInt($("input#number"));
+    var numberInput = userInput.split("");
+    console.log(numberInput);
 
-    if (potato === 1); {
-      $("#response").text("beep"); 
-    } if (potato === 2);
-      $("#response").text("boop");
+
+    numberInput.find("1");
+      return ("beep");
+    
+    
+    
+
+
+
+ 
+
+
+
 
 
 
