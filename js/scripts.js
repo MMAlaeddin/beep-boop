@@ -16,7 +16,9 @@ $(document).ready(function(){
         $("#response").text("Boop");
       } else if (userInput === 3) {
         $("#response").text("Sorry Dave, but you aint gettin' nothin'");
-      } else 
+      } else if (numberInput.includes(3)) {
+        $("#response").text("whatttt");
+      }
 
 
     
