@@ -1,3 +1,4 @@
+// front end 
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
@@ -5,12 +6,12 @@ $(document).ready(function(){
     var userInput = parseInt($("input#number").val());
 
     var numberInput = [];
-
+// back end 
     for (var i = 0; i <= userInput; i ++) {
       numberInput.push(i);
       console.log(numberInput);
 
-      var clown = numberInput.toString().split(",");
+      var clown = userInput.toString();
       console.log(clown);
 
        } if (isNaN(userInput)) {
@@ -25,17 +26,12 @@ $(document).ready(function(){
         $("#response").text("Beep");
       } else if (clown.includes(2)) {
         $("#response").text("Boop");
-
-
-    
-      }
+      } 
 
 
     
     
-
-
-
+    
  
 
 
