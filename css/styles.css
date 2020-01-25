@@ -9,9 +9,14 @@ h1 {
 
 .container {
     font-family: monospace;
+    text-align: center;
 }
 
 #response {
     text-align: center;
     font-size: 100px;
+}
+
+#number {
+    text-align: center;
 }

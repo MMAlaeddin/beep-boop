@@ -9,10 +9,10 @@ $(document).ready(function(){
 // back end 
     for (var i = 0; i <= userInput; i ++) {
       numberInput.push(i);
-      console.log(numberInput);
+      // console.log(numberInput);
 
       var clown = userInput.toString();
-      console.log(clown);
+      // console.log(clown);
 
        } if (isNaN(userInput)) {
       alert("Enter a number!");
