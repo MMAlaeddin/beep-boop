@@ -12,11 +12,11 @@ $(document).ready(function(){
       // console.log(numberInput);
 
       var clown = userInput.toString();
-      // console.log(clown);
+      console.log(clown);
 
        } if (isNaN(userInput)) {
       alert("Enter a number!");
-       } else if (userInput === 1) {
+       } else if (numberInput === 1) {
         $("#response").text("Beep");
       } else if (userInput === 2) {
         $("#response").text("Boop");
@@ -33,12 +33,10 @@ $(document).ready(function(){
       } else if (clown.includes(4) || clown.includes(5) || clown.includes(6) || clown.includes(7) || clown.includes(8) || clown.includes(9) || clown.includes(0)) {
         $("#response").text(userInput);
       }
-      // } else if (clown.includes(1) && clown.includes(2)) {
-      //   $("#response").text("Boop");
-      // }
 
 
-    
+
+    $("#response").text(numberInput);
     
     
  
