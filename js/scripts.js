@@ -10,14 +10,11 @@ function numbersToArray(number) {
       } else if (string.includes("1")) {
           numberArray.push("Beep");
       } else {
-          
+        numberArray.push(i);
       }
   }
   return numberArray
 }
-
-
-
 
 //front end
 $(document).ready(function(){
@@ -25,9 +22,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     var userInput = parseInt($("input#number").val());
-
     var responseOutput = numbersToArray(userInput);
-
     $("#response").text(responseOutput);
       
   })
