@@ -22,8 +22,8 @@ $(document).ready(function(){
     event.preventDefault();
 
     var userInput = parseInt($("input#number").val());
-    var responseOutput = numbersToArray(userInput);
-    $("#response").text(responseOutput);
+    
+    $("#response").text(numbersToArray(userInput));
       
   })
 })    
