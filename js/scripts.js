@@ -1,3 +1,4 @@
+//back end
 function numbersToArray(userInput) {
   var numberArray = [];
   for (var i = 0; i <= userInput; i ++) {
@@ -22,7 +23,7 @@ $(document).ready(function(){
     event.preventDefault();
 
     var userInput = parseInt($("input#number").val());
-    
+
     $("#response").text(numbersToArray(userInput));
       
   })
