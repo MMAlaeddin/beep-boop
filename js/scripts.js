@@ -1,6 +1,6 @@
-function numbersToArray(number) {
+function numbersToArray(userInput) {
   var numberArray = [];
-  for (var i = 0; i <= number; i ++) {
+  for (var i = 0; i <= userInput; i ++) {
       var string = (i).toString();
 
       if (string.includes("3")) {
