@@ -1,50 +1,34 @@
-// front end 
+function numbersToArray(number) {
+  var numberArray = [];
+  for (var i = 0; i <= number; i ++) {
+      var string = (i).toString();
+
+      if (string.includes("3")) {
+          numberArray.push("sorry");
+      } else if (string.includes("2")) {
+          numberArray.push("Boop");
+      } else if (string.includes("1")) {
+          numberArray.push("Beep");
+      } else {
+          
+      }
+  }
+  return numberArray
+}
+
+
+
+
+//front end
 $(document).ready(function(){
   $("form").submit(function(event){
     event.preventDefault();
 
     var userInput = parseInt($("input#number").val());
 
-    var numberInput = [];
-// back end 
-    for (var i = 0; i <= userInput; i ++) {
-      numberInput.push(i);
-      // console.log(numberInput);
+    var responseOutput = numbersToArray(userInput);
 
-      var clown = userInput.toString();
-      console.log(clown);
-
-       } if (isNaN(userInput)) {
-      alert("Enter a number!");
-       } else if (numberInput === 1) {
-        $("#response").text("Beep");
-      } else if (userInput === 2) {
-        $("#response").text("Boop");
-      } else if (userInput === 3) {
-        $("#response").text("Sorry Dave, but you aint gettin' nothin'");
-      } else if (clown.includes(1)) {
-        $("#response").text("Beep");
-      } else if (clown.includes(2)) {
-        $("#response").text("Boop");
-      } else if (clown.includes(3)) {
-        $("#response").text("Sorry Dave, but you aint gettin' nothin'")
-      } else if (userInput !== 1 || userInput !== 2 || userInput !== 3) {
-        $("#response").text(userInput);
-      } else if (clown.includes(4) || clown.includes(5) || clown.includes(6) || clown.includes(7) || clown.includes(8) || clown.includes(9) || clown.includes(0)) {
-        $("#response").text(userInput);
-      }
-
-
-
-    $("#response").text(numberInput);
-    
-    
- 
-
-
-
-
-
-  });
-
-  });
+    $("#response").text(responseOutput);
+      
+  })
+})    
